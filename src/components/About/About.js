@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/sukrut_square.jpg";
+import laptopImg from "../../Assets/imageOfme.jpeg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -44,7 +44,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+         <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
